@@ -34,3 +34,7 @@ function vowelCounter(vowelWord) {
     console.log(result);
   }
 vowelCounter ("EatAbiGFishNow")
+
+module.exports.reverseThisWord = reverseThisWord;
+module.exports.correctCapitals = correctCapitals;
+module.exports.vowelCounter = vowelCounter;

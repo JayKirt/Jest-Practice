@@ -31,3 +31,7 @@ function sumArray(arr) {
             console.log(evens)
             }
             evensOnlyArray([1,2,3,4,5,6,7,8,9,10])
+
+            module.exports.sumArray = sumArray;
+            module.exports.highestNumber = highestNumber;
+            module.exports.evensOnlyArray = evensOnlyArray;

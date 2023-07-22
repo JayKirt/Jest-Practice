@@ -13,3 +13,6 @@ function isPersonEmpty(obj) {
 function getObjectKeys(obj) {
     return Object.keys(obj);
 }
+module.exports.mergeObjects = mergeObjects;
+module.exports.isPersonEmpty = isPersonEmpty;
+module.exports.getObjectKeys = getObjectKeys;
