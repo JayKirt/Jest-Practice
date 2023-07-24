@@ -2,14 +2,14 @@
 
 function reverseThisWord (word) {
   const reversedWord =  word.split("").reverse().join("") 
-  console.log (reversedWord)
+ return  (reversedWord)
 }
 reverseThisWord ("hello")
 
 
 //Capitalise the first letter
 function correctCapitals (badEnglish) {
-    console.log (badEnglish.charAt(0).toUpperCase() + badEnglish.slice(1));
+   return (badEnglish.charAt(0).toUpperCase() + badEnglish.slice(1));
 }
 correctCapitals ("hey there") 
     
@@ -31,10 +31,13 @@ function vowelCounter(vowelWord) {
       }
     }
   
-    console.log(result);
+    return(result);
   }
 vowelCounter ("EatAbiGFishNow")
 
-module.exports.reverseThisWord = reverseThisWord;
-module.exports.correctCapitals = correctCapitals;
-module.exports.vowelCounter = vowelCounter;
+module.exports= {
+
+  vowelCounter,
+  reverseThisWord,
+  correctCapitals
+}

@@ -4,9 +4,9 @@ function sumArray(arr) {
     for (let i = 0; i < arr.length; i++){
         total += arr[i]
     };
-    console.log(total)
+    return (total)
     };
-    sumArray([1,2,3,4,5,6,7,8,9,10])
+    sumArray([5,2,5,4,5,6,5,8,9,10])
 
     // returns the highest number in an array
     function highestNumber(arr) {
@@ -16,9 +16,9 @@ function sumArray(arr) {
                 highest = arr[i]
             }
         };
-        console.log(highest)
+        return (highest)
         }
-        highestNumber([1,2,3,4,5,6,7,8,9,10])
+        highestNumber([1,2,22,4,5,6,7,8,9,10])
 
         //returns only evens from an array 
         function evensOnlyArray(arr) {  
@@ -28,10 +28,13 @@ function sumArray(arr) {
                     evens.push(arr[i])
                 }
             }   
-            console.log(evens)
+            return (evens)
             }
             evensOnlyArray([1,2,3,4,5,6,7,8,9,10])
 
-            module.exports.sumArray = sumArray;
-            module.exports.highestNumber = highestNumber;
-            module.exports.evensOnlyArray = evensOnlyArray;
+            module.exports = {
+                sumArray,
+                highestNumber,
+                evensOnlyArray,
+                
+            }
