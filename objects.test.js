@@ -36,3 +36,9 @@ const expectedObj = {
 
   expect (results).toEqual(expectedObj)
 })
+
+test ("check if obj is empty", () => {
+  const obj = {}
+  const result = functions.isPersonEmpty(obj)
+  expect (result).toEqual(result)
+})
