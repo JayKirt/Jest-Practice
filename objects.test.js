@@ -12,3 +12,27 @@ test("return Object Keys", () => {
 
   expect(result).toEqual(expectedKeys);
 });
+
+test ("object merging", () => {
+
+  const obj1 = {
+    fName :"Jay",
+    lName: "kirtlan"
+}
+
+const obj2 = {
+  feeling: "loves",
+  perfectOne: "kath"
+}
+
+const expectedObj = {
+  fName :"Jay",
+    lName: "kirtlan",
+    feeling: "loves",
+    perfectOne: "kath"
+  }
+
+  const results = functions.mergeObjects (obj1, obj2)
+
+  expect (results).toEqual(expectedObj)
+})
