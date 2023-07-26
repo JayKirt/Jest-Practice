@@ -10,4 +10,4 @@
   <li> String tests.</li>
 </ul>
 
-
+<p> writing functions to be tested with simple Jest testing. </p>
