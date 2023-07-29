@@ -6,7 +6,7 @@
 
 <ul>
   <li>Array tests.</li>
-  <li> Object tests.</li>
+  <li>Object tests.</li>
   <li>String tests.</li>
 </ul>
 
