@@ -7,7 +7,7 @@
 <ul>
   <li>Array tests.</li>
   <li> Object tests.</li>
-  <li> String tests.</li>
+  <li>String tests.</li>
 </ul>
 
-<p> writing functions to be tested with simple Jest testing. </p>
+<p>writing functions to be tested with simple Jest testing.</p>
