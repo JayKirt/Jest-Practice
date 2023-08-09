@@ -15,4 +15,5 @@
 
 <h3> <ins> To Do: </ins></h3>
 <ul>
+  <li> Test the rendering of a picture</li>
 </ul>
