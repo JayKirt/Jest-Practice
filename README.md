@@ -2,7 +2,7 @@
 
 <h2><ins> Practice with testing and JavaScript. </ins></h2>
 
-<p>Building simple tests with jest to practice for tech interviews.</p>
+<p> Building simple tests with jest to practice for tech interviews. </p>
 
 <ul>
   <li> Array tests. </li>
