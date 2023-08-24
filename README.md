@@ -5,7 +5,7 @@
 <p>Building simple tests with jest to practice for tech interviews.</p>
 
 <ul>
-  <li>Array tests.</li>
+  <li> Array tests. </li>
   <li>Object tests.</li>
   <li>String tests.</li>
 </ul>
